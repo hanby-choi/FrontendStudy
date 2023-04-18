@@ -10,10 +10,11 @@ import CommentList from './chapter_05/CommentList';
 import NotificationList from './chapter_06/NotificationList';
 import Accommodate from './chapter_07/Accommodate';
 import ConfirmButton from './chapter_08/ConfirmButton';
+import LandingPage from './chapter_09/LandingPage';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ConfirmButton/>
+    <LandingPage/>
   </React.StrictMode>,
   document.getElementById('root')
 );
