@@ -1,13 +1,13 @@
-import styled, {css} from "styled-components";
+import styled, { css } from "styled-components";
 
-const TodoItem = ({text, todoList, setTodoList, id, done}) => {
-  const deleteItem = () =>{
+const TodoItem = ({ text, todoList, setTodoList, id, done }) => {
+  const deleteItem = () => {
     setTodoList((todoList) => todoList.filter((item) => item.id !== id));
   };
-  
+
   const toggleItem = () => {
     setTodoList(
-      todoList.map((item) => (item.id === id ? {...item, done: !done} : item))
+      todoList.map((item) => (item.id === id ? { ...item, done: !done } : item))
     );
   };
 
@@ -37,8 +37,8 @@ const Text = styled.div`
   ${(props) =>
     props.isDone &&
     css`
-      text-decoration: line-through
-  `}
+      text-decoration: line-through;
+    `}
 `;
 const Line = styled.hr`
   border: solid 1px #e3e3e3;
