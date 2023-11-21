@@ -41,3 +41,15 @@ a {
   opacity: 1;
   transition: all 1s;
 }
+.navbar {
+  background: white;
+  padding: 20px;
+}
+.navbar a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  font-weight: bold;
+}

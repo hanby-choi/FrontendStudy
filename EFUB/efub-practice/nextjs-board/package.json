@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next-auth/mongodb-adapter": "^1.1.3",
+    "aws-sdk": "^2.1500.0",
+    "bcrypt": "^5.1.1",
     "mongodb": "^6.2.0",
     "next": "14.0.2",
+    "next-auth": "^4.21.1",
     "react": "^18",
     "react-dom": "^18"
   }
